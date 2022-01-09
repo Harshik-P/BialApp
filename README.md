@@ -42,12 +42,22 @@ Home Screen             | Flights
 :-------------------------:|:-------------------------:
 ![Home Page](Documentation/HomeScreen.png)  |  ![Flights Page](Documentation/flightsPage.png)
 
+Sign-In Screen             | Sign-up
+:-------------------------:|:-------------------------:
+![Sign-in Screen](Documentation/sign-in.png)  |  ![Sign-up Screen](Documentation/sign-up.png)
+
 ## Chat Bot
 <p align="center">
 <img src="Documentation/chatBot.png" width="400" >
 </p>
 <p>
 Passengers can have various types of questions; some questions need to be answered by an actual human being, but a lot of the queries can be handled by a bot reducing staffing needs of the airport. Also, a bot can be available 24x7</p>
+
+> Chat Bot Commands:
+> - Flight Status \<Flight-No> -> Returns the status of the flight
+> - Help -> Returns the contact details for medical emergency
+> - Tell me something new -> Tells interesting facts about the airport
+>
 
 ## Customs Declaration
 <p align="center">
@@ -85,9 +95,16 @@ Passengers needing special assistance can request the airport staff using the mo
 
 ##  Lost and Found section
 <p align="center">
-<img src="Documentation/lostAndFound.png" width="270" > <img src="Documentation/lostItem.png" width="270" >
+<img src="Documentation/lostAndFound.png" width="270" > <img src="Documentation/lostItem.png" width="270" ></p>
 <p>
 With such large number of passengers visiting the airport everyday there would be many lost or missing items. Therefore, to make the process of reporting and claiming lost items easier we want to have a lost and found section in the application.</p>
+
+## Boarding Pass generation
+<p align="center">
+<img src="Documentation/profilePage.png" width="270" > <img src="Documentation/boardingPass.png" width="270" ></p>
+<p>
+There are always huge queues in front of check in desks at the airport. Despite having machines to allow passengers to self-check-in a lot of the passengers are not very comfortable using them. Having the option to generate an e-boarding pass within the application would make the check-in process convenient.
+</p>
 
 # Now Lets Talk about the Server-Side
 
